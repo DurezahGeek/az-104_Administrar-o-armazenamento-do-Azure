@@ -1,5 +1,7 @@
 # ✅ Administração do Armazenamento no Azure – AZ-104
 
+![imagem1](https://github.com/DurezahGeek/az-104_Administrar-o-armazenamento-do-Azure/blob/main/srcAAA/1.png)
+
 ## ☁️ 1. Conta de Armazenamento (Storage Account)
 
 Serviço base para armazenar blobs, arquivos, tabelas, filas e mais.
@@ -27,16 +29,7 @@ Serviço base para armazenar blobs, arquivos, tabelas, filas e mais.
 ---
 
 ## 🧱 3. Replicação de Dados
-
-| Modelo     | Localização          | Cópias | Acesso Secundário | Observações |
-|------------|----------------------|--------|--------------------|-------------|
-| **LRS**    | Mesma região         | 3      | ❌                 | Baixa tolerância a falhas |
-| **ZRS**    | 3 zonas da mesma região | 3  | ❌                 | Alta disponibilidade regional |
-| **GRS**    | Região secundária     | 6      | ❌                 | Proteção contra desastre |
-| **RA-GRS** | Região secundária     | 6      | ✅                 | Leitura secundária |
-| **GZRS**   | Zonas + região secundária | 6  | ❌              | Proteção máxima |
-| **RA-GZRS**| Zonas + região secundária | 6  | ✅              | Proteção máxima + leitura |
-
+![imagem2](https://github.com/DurezahGeek/az-104_Administrar-o-armazenamento-do-Azure/blob/main/srcAAA/2.png)
 ---
 
 ## 🔐 4. Ponto de Extremidade (Endpoint)
@@ -60,8 +53,7 @@ Cada serviço de armazenamento possui uma URL única:
 
 ## 📊 5. Tipos de Conta
 
-- **General Purpose v2**: mais versátil, recomendado.
-- **BlobStorage/Premium**: foco em desempenho e uso específico.
+![imagem3](https://github.com/DurezahGeek/az-104_Administrar-o-armazenamento-do-Azure/blob/main/srcAAA/3.png)
 
 ---
 
@@ -132,6 +124,7 @@ Cada serviço de armazenamento possui uma URL única:
 - ⚠️ **Desencorajado em produção**
 
 ---
+![imagem4](https://github.com/DurezahGeek/az-104_Administrar-o-armazenamento-do-Azure/blob/main/srcAAA/4.png)
 
 ## 📁 Gerenciamento de Arquivos (Azure Files)
 
@@ -161,8 +154,9 @@ Cada serviço de armazenamento possui uma URL única:
 - Multiplataforma
 
 ### 📦 Azure Import/Export
-
+![imagem5](https://github.com/DurezahGeek/az-104_Administrar-o-armazenamento-do-Azure/blob/main/srcAAA/5.png)
 - Envio físico de discos criptografados para grandes volumes
+- Ideal para migrações com muitos TBs
 
 ### ⚙️ AzCopy (CLI)
 
@@ -172,8 +166,6 @@ Cada serviço de armazenamento possui uma URL única:
   - SAS Token
 
 ---
-
-## 📘 Tabela de Perguntas e Respostas – Armazenamento no Azure
 
 ## 📘 Tabela de Perguntas e Respostas – Armazenamento no Azure
 
